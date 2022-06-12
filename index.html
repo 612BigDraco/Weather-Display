@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WEATHER DISPLAY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+      <header>
+        <h1>Weather Display</h1>
+      </header>
+
+      <section class="search" id="search">
+        <h1>SEARCH FOR A CITY:</h1>
+        <!--add search option here to search for a city-->
+        <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
+        <button type="submit" class="btn">Search</button>
+
+      </section>
+      <!--show the city you searched for plus date-->
+      <!--then show Temp Wind Humidity and UV Index-->
+      <div class="current">
+        <h2 class="current-info">Showing Weather for: <span id="citySearch"></span></h2>
+
+
+      </div>
+
+      <section>
+        <!--this section is reserved for the five day weather forecast-->
+
+      </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
